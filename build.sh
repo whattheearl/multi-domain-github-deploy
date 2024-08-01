@@ -1,5 +1,5 @@
-rm -rf client/build sites/ci
+rm -rf client/build docs 
 npm run build --prefix client
-mkdir -p sites/ci
-cp -r client/build/* sites/ci
+mkdir -p docs
+cp -r client/build/* docs
 
